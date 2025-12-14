@@ -1,15 +1,15 @@
-import './Contact.css';
+import './contact.css';
 import { MdOutlineEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 
 function Contact(){
     return(
-        <div className="contactBox" id="contact">
+        <div className="contact-box" id="contact">
             <p>Get In Touch</p>
             <h1>Contact Me</h1>
-            <div className="linkBox">
+            <div className="link-box">
                 <div className="mail"><MdOutlineEmail /><a target='_blank' rel='noopener noreferrer' href='mailto:viswabharathyv@outlook.com'>viswabharathyv@outlook.com</a></div>
-                <div className="linkedIn"><FaLinkedin /><a target='_blank' href='https://www.linkedin.com/in/viswabharathy-viswanathan-a7520b221/'>LinkedIn</a></div>
+                <div className="linked-in"><FaLinkedin /><a target='_blank' href='https://www.linkedin.com/in/viswabharathy-viswanathan-a7520b221/'>LinkedIn</a></div>
             </div>
             <div className="contact-form">
                 <div className="first">

@@ -1,4 +1,4 @@
-.contentBox{
+.content-box{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
     min-height: calc(100vh - 80px);
 }
 
-.pictureBox, .details{
+.picture-box, .details{
     position: relative;
     width: clamp(300px,5vw,50vw);
     min-height: 250px;
@@ -22,7 +22,7 @@
     overflow: hidden;
 }
 
-.pictureBox img{
+.picture-box img{
     border-radius: 10px;
 }
 
@@ -45,12 +45,12 @@ img{
 }
 
 @media (max-width:768px){
-    .contentBox{
+    .content-box{
         flex-direction: column;
         width: 100%;
         
     }
-    .pictureBox, .details{
+    .picture-box, .details{
         overflow: hidden;
     }
 }

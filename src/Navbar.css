@@ -24,7 +24,7 @@ html{
     color: #e0e7ff;
 }
 
-.titleName{
+.title-name{
     width: calc(60vW - 10px);
     margin: 5px;
     font-size: clamp(1.5rem,5vw,2.5rem);
@@ -39,22 +39,25 @@ html{
     flex-grow: 1;
 }
 
-.container ul a{
-    text-decoration: none;
+.container ul li{
     color: #e0e7ff;
-    margin: 15px;
+    margin: 10px;
     font-weight: 600;
 }
 
-.container ul li:hover{
+.container ul a{
+    text-decoration: none;    
+}
+
+.container ul a:hover{
     background-color: #fff;
-    a{
-        color: #000;
+    li{
+        color: #333;
     }
     
 }
 
-.container ul li{
+.container ul a{
     /* margin: 0px 5px; */
     border-radius: 5px;
     cursor: pointer;
@@ -83,7 +86,7 @@ html{
         text-align: center;
         display: none;
     }
-    .titleName, .container ul{
+    .title-name, .container ul{
         width: 100%;
     }
     .menu{

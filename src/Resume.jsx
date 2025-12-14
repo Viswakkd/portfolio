@@ -9,13 +9,13 @@ function Resume(){
     };
 
     return (
-        <div className="resumeBox" id="resume">
+        <div className="resume-box" id="resume">
             <h1>Resume</h1>
             <div className="objective">
                 <h3>Objective</h3>
                 <p>Frontend Developer with 6 months React.js experience migrating legacy VB.NET systems. Over 2 years working with VB.NET, ADO.NET, and SQL Server on purchase management and subsidy tracking. Skilled in building reusable React components and backend integration.</p>                
             </div>            
-            <div className="btnGrp">
+            <div className="btn-grp">
                 <div className="download">
                     <a href="https://drive.google.com/uc?export=download&id=1k-NgLtMdHDt-SHIH5ZstVbfkcL4YTICM"
                         target="_blank"
