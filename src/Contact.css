@@ -1,0 +1,70 @@
+.contactBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 10px;
+}
+
+.linkBox,.contact-form{
+    display: flex;
+    gap: 10px;
+    box-shadow: 0px 0px 10px rgba(224,231,255,0.3);
+    border-radius: 10px;
+    background-color: #1a2238;
+}
+.linkBox{
+    padding: 20px;
+}
+.linkedIn, .mail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact-form{
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contact-form .first,.second{
+    display: flex;
+    gap: 10px;
+}
+.first .row-11,.row-12, .second .row-21,.row-22{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    input{
+        border: none;
+        outline: none;
+        padding: 5px;
+        border-radius: 5px;
+        color: #000;
+        caret-color: #000;
+    }
+}
+
+[class^="row-"] input:focus{
+    outline: 2px solid #00FFC8;
+}
+
+.third #message{
+    min-height: 50px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    caret-color: #000;
+    outline: none;
+}
+
+.third #message div{
+    background-color: #fff;
+    color: #000;
+    caret-color: #000;
+}
+
+.third #message:focus{
+    outline: 2px solid #00FFC8;
+}
