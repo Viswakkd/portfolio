@@ -1,4 +1,4 @@
-import './skils.css';
+import './Skils.css';
 // import { VscVscode } from "react-icons/vsc";
 
 function Skils(){

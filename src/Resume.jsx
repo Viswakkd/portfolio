@@ -1,4 +1,4 @@
-import './resume.css';
+import './Resume.css';
 import { HiDownload } from "react-icons/hi";
 import { BiSolidDownload } from "react-icons/bi";
 import { ImNewTab } from "react-icons/im";
