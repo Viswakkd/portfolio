@@ -4,7 +4,7 @@ function Banner(){
 return (
     <div className="content-box">
         <div className="picture-box">
-            <img src="/public/profile.Jpg" alt="picture" />
+            <img src="/profile.jpg" alt="picture" />
         </div>
         <div className="details">
             <p>Hello, I'm</p>
