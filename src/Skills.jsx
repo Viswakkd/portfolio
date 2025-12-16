@@ -1,4 +1,4 @@
-import './skills.css';
+import './Skills.css';
 import FadeInSection from './FadeInSection';
 
 function Skills() {
