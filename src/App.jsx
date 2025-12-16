@@ -6,7 +6,7 @@ import Navbar from './Navbar'
 import Banner from './Banner'
 import Contact from './Contact'
 import Resume from './Resume'
-import Skils from './Skils'
+import Skills from './Skills'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +16,7 @@ function App() {
       <Navbar/>
       <Banner/>
       <Resume/>
-      <Skils/>
+      <Skills/>
       <Contact/>
     </>
   )

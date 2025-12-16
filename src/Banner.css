@@ -8,6 +8,7 @@
     position: relative;
     /* margin-top: 20px; */
     min-height: 100vh;
+    padding: 80px 20px 60px;
 }
 
 .picture-box, .details{

@@ -15,7 +15,7 @@ function Navbar(){
             <ul id="nav-items" className={dynamicClass}>
                 <li><a href="#">Home</a></li>
                 <li><a href="#resume">Resume</a></li>
-                <li><a href="#skils">Skils</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div className="menu" onClick={handleClick}>
