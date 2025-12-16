@@ -3,8 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100vh ;
-    
+    min-height: 100vh ;    
 }
 
 .resume-box h1{
@@ -12,24 +11,89 @@
 }
 
 .btn-grp,.objective{
-    margin: 10px 5px;
+    margin: 10px 0px;
     display: flex;
     min-height: 80px;
-    width: clamp(300px,5vw,500px);
+    width: 80vw;
     box-shadow: 0px 0px 10px rgba(224,231,255,0.3);
-    border-radius: 10px;
+    border-radius: 0 10px 10px 0;
     justify-content: center;
     align-items: center;
-    background-color: #1a2238;
+    background-color:  var(--bg-card);
 }
 
+.experience{
+    display: flex;
+    width: 80vw ;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.experience [class^="prj"] h4{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.experience [class^="prj"] p,.objective p{
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-main);
+  margin: 0;
+}
+
+.experience [class^="prj"]{
+    width: 100%;
+    background-color: var(--bg-card);
+    color: var(--text-main);
+    padding: 24px 28px;
+    margin-bottom: 24px;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid transparent;
+    position: relative;
+    box-shadow: 0 0 0 rgb(0,0,0);
+    transition: all 0.3s ease;
+}
+
+.experience [class^="prj"]::before{
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: #00FFC8;
+    width: 2px;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
 
 .objective{
-    width: 75%;
+    /* width: 75%; */
     display: flex;
     flex-direction: column;
     padding: 10px;
     font-size: .9rem;
+    border: 1px solid transparent;
+    position: relative;
+    box-shadow: 0 0 0 rgb(0,0,0);
+    transition: all 0.3s ease;
+}
+
+.objective:hover,.experience [class^="prj"]:hover{
+    box-shadow: 0 0 25px var(--shadow);
+    transform: translateY(-6px) scale(1.02);
+    border-color: var(--hover-border);
+}
+
+.objective::before{
+    content: "";
+    width: 2px;
+    background: #00FFC8 ;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
 }
 
 .objective h3{
@@ -39,17 +103,19 @@
 
 #download-btn, #preview-btn{
     padding: 10px;
-    border: 2px solid darkgray;
-    border-radius: 10px;
-    background-color: #3b5cff;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--btn-color);
     font-size: medium;
     font-weight: 600;
     transition: all 0.3s ease;
-    color: #fff;
+    color: var(--text-main);
+    box-shadow: 0 2px 5px var(--btn-shadow);
 }
 
 #download-btn:hover, #preview-btn:hover{
-    background-color: #253a76;
+    background-color: #2563eb; 
+    box-shadow: 0 4px 12px var(--btn-shadow);
     color: #fff;
 }
 
@@ -58,6 +124,7 @@
     justify-content: space-around;
     background-color: transparent;
     box-shadow: none;
+    width: 300px;
 }
 
 #download-btn, #preview-btn {

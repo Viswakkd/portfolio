@@ -13,10 +13,10 @@ function Navbar(){
         <div className="container">
             <div className="title-name">VV</div>
             <ul id="nav-items" className={dynamicClass}>
-                <a href="#"><li>Home</li></a>
-                <a href="#resume"><li>Resume</li></a>
-                <a href="#skils"><li>Skils</li></a>
-                <a href="#contact"><li>Contact</li></a>
+                <li><a href="#">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#skils">Skils</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div className="menu" onClick={handleClick}>
                 <div className="menu-line"></div>
