@@ -6,7 +6,7 @@ import FadeInSection from './FadeInSection';
 
 function Resume() {
     const goToExternal = () => {
-        window.open("https://drive.google.com/file/d/1k-NgLtMdHDt-SHIH5ZstVbfkcL4YTICM/view?usp=drivesdk", "_blank")
+        window.open("https://drive.google.com/file/d/1jZ5UIVNEzoEmICRnm-b7VDL0-o9QGjkO", "_blank")
     };
 
     return (
@@ -43,7 +43,7 @@ function Resume() {
                 </div>
                 <div className="btn-grp">
                     <div className="download">
-                        <a href="https://drive.google.com/uc?export=download&id=1k-NgLtMdHDt-SHIH5ZstVbfkcL4YTICM"
+                        <a href="https://drive.google.com/uc?export=download&id=1jZ5UIVNEzoEmICRnm-b7VDL0-o9QGjkO"
                             target="_blank"
                             rel="noopener noreferrer">
                             <button id="download-btn" ><BiSolidDownload />Download</button>
