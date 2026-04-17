@@ -11,15 +11,29 @@ Currently, two official plugins are available:
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Tech Stack
+ **React**
+ **Vite**
+ **JavaScript (ES6+)**
+ **HTML5**
+ **CSS**
+
+  ## 🌐 Live Demo
+ 🔗 Portfolio URL: https://portfolio-pi-rust-72.vercel.app/
+
 ## Getting Started
 
-1. Install Dependencies
+1. Clone the repository
+```
+git clone https://github.com/Viswakkd/portfolio.git
+```
+2. Install Dependencies
 
 ```
 npm i
 ```
 
-2. Run the development server:
+3. Run the development server:
 
 ```bash
 npm run dev
