@@ -3,23 +3,28 @@ import { HiDownload } from "react-icons/hi";
 import { BiSolidDownload } from "react-icons/bi";
 import { ImNewTab } from "react-icons/im";
 import FadeInSection from './FadeInSection';
+import {data}  from './data';
 
 function Resume() {
     const goToExternal = () => {
         window.open("https://drive.google.com/file/d/1jZ5UIVNEzoEmICRnm-b7VDL0-o9QGjkO", "_blank")
     };
-
+    // console.log("data ",data);
     return (
         <FadeInSection>
             <div className="resume-box" id="resume">
                 <h1>Resume</h1>
                 <div className="experience">
                     <h3>OBJECTIVE</h3>
-                    <div className="objective">                        
+                    <div className="objective">
                         <p>Frontend Developer with 6 months React.js experience migrating legacy VB.NET systems. Over 2 years working with VB.NET, ADO.NET, and SQL Server on purchase management and subsidy tracking. Skilled in building reusable React components and backend integration.</p>
-                    </div>                    
+                    </div>
                     <h3>EXPERIENCE</h3>
-                    <div className="prj-1">
+                    {data && data.map(item => <div className='prj-$' key={item.id}>
+                    <h4>{item.title}</h4>
+                    <p>{item.content}</p>
+                    </div>)}
+                    {/* <div className="prj-1">
                         <h4>Inventory management | ReactJS | Frontend Developer</h4>
                         <p>Contributing to the migration of a legacy VB.NET inventory system
                             to ReactJS. Developed reusable components, enhanced UI
@@ -39,7 +44,7 @@ function Resume() {
                             ADO.NET and SQL Server. Focused on purchase orders, vendor and
                             inventory management, and system integration. Collaborated with
                             analysts to streamline workflows and improve system efficiency.</p>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="btn-grp">
                     <div className="download">
