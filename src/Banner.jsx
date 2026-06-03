@@ -11,7 +11,7 @@ function Banner() {
                 <div className="details">
                     <p>Hello, I'm</p>
                     <h1>Viswabharathy V</h1>
-                    <h3>ReactJs Developer</h3>
+                    <h3>Fullstack Developer</h3>
                     <div className="btn-grp" id='btn'></div>
                 </div>
             </div>

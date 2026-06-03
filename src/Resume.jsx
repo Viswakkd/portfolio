@@ -17,7 +17,7 @@ function Resume() {
                 <div className="experience">
                     <h3>OBJECTIVE</h3>
                     <div className="objective">
-                        <p>Frontend Developer with 6 months React.js experience migrating legacy VB.NET systems. Over 2 years working with VB.NET, ADO.NET, and SQL Server on purchase management and subsidy tracking. Skilled in building reusable React components and backend integration.</p>
+                        <p>Full Stack Developer with 3 years of backend experience and hands-on expertise in modern web technologies. Skilled in React.js, Node.js, and SQL, with a strong focus on building scalable applications and clean, user-friendly interfaces. Experienced in migrating legacy systems to modern architectures, improving performance, and maintaining high-quality, efficient code.</p>
                     </div>
                     <h3>EXPERIENCE</h3>
                     {data && data.map(item => <div className='prj-$' key={item.id}>
