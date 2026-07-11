@@ -20,7 +20,7 @@ function Resume() {
                         <p>Full Stack Developer with 3 years of backend experience and hands-on expertise in modern web technologies. Skilled in React.js, Node.js, and SQL, with a strong focus on building scalable applications and clean, user-friendly interfaces. Experienced in migrating legacy systems to modern architectures, improving performance, and maintaining high-quality, efficient code.</p>
                     </div>
                     <h3>EXPERIENCE</h3>
-                    {data && data.map(item => <div className='prj-$' key={item.id}>
+                    {data && data.map(item => <div className={`prj-${item.id}`} key={item.id}>
                     <h4>{item.title}</h4>
                     <p>{item.content}</p>
                     </div>)}

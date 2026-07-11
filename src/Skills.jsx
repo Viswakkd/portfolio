@@ -1,6 +1,6 @@
 import './Skills.css';
 import FadeInSection from './FadeInSection';
-import { skils } from './data';
+import { skills } from './data';
 
 function Skills() {
     return (
@@ -8,9 +8,9 @@ function Skills() {
             <div id="skills">
                 <h1>Skills</h1>
                 <div className="skill-content">
-                    {skils && skils.map(item =>
+                    {skills && skills.map(item =>
                         <div className='skill-box' key={item.id}>
-                            <img src={item.source} /><span>{item.name}</span>
+                            <img src={item.source} alt={item.name} /><span>{item.name}</span>
                         </div>)}
                     {/* <div className="skill-box"><img src="./html.svg" /><span>HTML</span></div>
                     <div className="skill-box"><img src="./css3.svg" /><span>CSS</span></div>

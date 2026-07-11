@@ -16,7 +16,7 @@ const data = [
   },
 ]
 
-const skils =[
+const skills =[
   {id:1,source:"./html.svg",name:"HTML"},
   {id:2,source:"./css3.svg",name:"CSS"},
   {id:3,source:"./js.svg",name:"JS"},
@@ -25,4 +25,4 @@ const skils =[
   {id:6,source:"./vb.svg",name:"VB.NET"},
 ]
 
-export {data,skils};
+export {data,skills};

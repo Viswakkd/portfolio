@@ -13,10 +13,10 @@ function Navbar(){
         <div className="container">
             <div className="title-name">VV</div>
             <ul id="nav-items" className={dynamicClass}>
-                <li><a href="#">Home</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li onClick={()=>setActive(false)}><a href="#">Home</a></li>
+                <li onClick={()=>setActive(false)}><a href="#resume">Resume</a></li>
+                <li onClick={()=>setActive(false)}><a href="#skills">Skills</a></li>
+                <li onClick={()=>setActive(false)}><a href="#contact">Contact</a></li>
             </ul>
             <div className="menu" onClick={handleClick}>
                 <div className="menu-line"></div>
